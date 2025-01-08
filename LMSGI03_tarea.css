@@ -1,0 +1,56 @@
+.flx_row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flx_grow
+{
+    flex-grow: 1;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+button
+{
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.faq_row
+{
+    display:flex;
+    flex-direction: row;   
+    justify-content: flex-start; 
+}
+
+.faq_text
+{
+    padding: 1em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+.faq_p
+{
+    background-color: aquamarine;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+.faq_r
+{
+    background-color:bisque;
+    margin-left: 3em;
+    margin-top: 0;
+}
+
+#txtFaq
+{
+    flex-grow: 1;
+    min-height: 100px;
+    margin-bottom: 1em;
+}
